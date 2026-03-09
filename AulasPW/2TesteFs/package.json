@@ -1,0 +1,12 @@
+{
+  "name": "index",
+  "version": "1.0.0",
+  "description": "teste da função fs",
+  "license": "ISC",
+  "author": "john",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  }
+}

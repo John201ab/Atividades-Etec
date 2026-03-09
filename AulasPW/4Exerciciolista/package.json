@@ -1,0 +1,12 @@
+{
+  "name": "4exerciciolista",
+  "version": "1.0.0",
+  "description": "exercicios de lista",
+  "license": "ISC",
+  "author": "john",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  }
+}

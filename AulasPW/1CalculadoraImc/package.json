@@ -1,0 +1,16 @@
+{
+  "name": "testefs",
+  "version": "1.0.0",
+  "description": "calculadora simples de imc para teste e aula de js",
+  "keywords": [
+    "imc",
+    "calculadora"
+  ],
+  "license": "ISC",
+  "author": "joão Henrique",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  }
+}

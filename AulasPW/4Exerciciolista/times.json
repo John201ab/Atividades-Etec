@@ -1,0 +1,420 @@
+[
+  {
+    "nome": "Flamengo",
+    "detalhes": {
+      "nome_oficial": "Clube de Regatas do Flamengo",
+      "fundacao": "1895-11-15",
+      "localizacao": {
+        "cidade": "Rio de Janeiro",
+        "estado": "RJ"
+      },
+      "estadio": {
+        "nome": "Maracanã",
+        "capacidade": 78838
+      }
+    },
+    "mascote": "Urubu",
+    "historico": {
+      "maiores_idolos": ["Zico", "Júnior", "Leandro", "Petkovic", "Gabigol"],
+      "principais_titulos": [
+        { "nome": "Libertadores", "quantidade": 3 },
+        { "nome": "Brasileirão", "quantidade": 8 },
+        { "nome": "Mundial", "quantidade": 1 },
+        { "nome": "Copa do Brasil", "quantidade": 4 }
+      ]
+    }
+  },
+  {
+    "nome": "Palmeiras",
+    "detalhes": {
+      "nome_oficial": "Sociedade Esportiva Palmeiras",
+      "fundacao": "1914-08-26",
+      "localizacao": {
+        "cidade": "São Paulo",
+        "estado": "SP"
+      },
+      "estadio": {
+        "nome": "Allianz Parque",
+        "capacidade": 43713
+      }
+    },
+    "mascote": "Porco",
+    "historico": {
+      "maiores_idolos": ["Ademir da Guia", "Marcos", "Evair", "Dudu", "Edmundo"],
+      "principais_titulos": [
+        { "nome": "Libertadores", "quantidade": 3 },
+        { "nome": "Brasileirão", "quantidade": 11 },
+        { "nome": "Copa do Brasil", "quantidade": 4 }
+      ]
+    }
+  },
+  {
+    "nome": "São Paulo",
+    "detalhes": {
+      "nome_oficial": "São Paulo Futebol Clube",
+      "fundacao": "1930-01-25",
+      "localizacao": {
+        "cidade": "São Paulo",
+        "estado": "SP"
+      },
+      "estadio": {
+        "nome": "Morumbi",
+        "capacidade": 66795
+      }
+    },
+    "mascote": "Santo Paulo",
+    "historico": {
+      "maiores_idolos": ["Rogério Ceni", "Raí", "Careca", "Muller", "Zetti"],
+      "principais_titulos": [
+        { "nome": "Libertadores", "quantidade": 3 },
+        { "nome": "Copa do Brasil", "quantidade": 1 },
+        { "nome": "Mundial", "quantidade": 3 },
+        { "nome": "Brasileirão", "quantidade": 6 }
+      ]
+    }
+  },
+  {
+    "nome": "Corinthians",
+    "detalhes": {
+      "nome_oficial": "Sport Club Corinthians Paulista",
+      "fundacao": "1910-09-01",
+      "localizacao": {
+        "cidade": "São Paulo",
+        "estado": "SP"
+      },
+      "estadio": {
+        "nome": "Neo Química Arena",
+        "capacidade": 49205
+      }
+    },
+    "mascote": "Mosqueteiro",
+    "historico": {
+      "maiores_idolos": ["Sócrates", "Ronaldo", "Marcelinho Carioca", "Cássio", "Rivelino"],
+      "principais_titulos": [
+        { "nome": "Libertadores", "quantidade": 1 },
+        { "nome": "Mundial", "quantidade": 1 },
+        { "nome": "Brasileirão", "quantidade": 7 }
+      ]
+    }
+  },
+  {
+    "nome": "Santos",
+    "detalhes": {
+      "nome_oficial": "Santos Futebol Clube",
+      "fundacao": "1912-04-14",
+      "localizacao": {
+        "cidade": "Santos",
+        "estado": "SP"
+      },
+      "estadio": {
+        "nome": "Vila Belmiro",
+        "capacidade": 16506
+      }
+    },
+    "mascote": "Baleia",
+    "historico": {
+      "maiores_idolos": ["Pelé", "Neymar", "Robinho", "Pepe", "Giovanni"],
+      "principais_titulos": [
+        { "nome": "Libertadores", "quantidade": 3 },
+        { "nome": "Brasileirão", "quantidade": 8 },
+        { "nome": "Mundial", "quantidade": 2 }
+      ]
+    }
+  },
+  {
+    "nome": "Grêmio",
+    "detalhes": {
+      "nome_oficial": "Grêmio Foot-Ball Porto Alegrense",
+      "fundacao": "1903-09-15",
+      "localizacao": {
+        "cidade": "Porto Alegre",
+        "estado": "RS"
+      },
+      "estadio": {
+        "nome": "Arena do Grêmio",
+        "capacidade": 55662
+      }
+    },
+    "mascote": "Mosqueteiro",
+    "historico": {
+      "maiores_idolos": ["Renato Gaúcho", "Tarciso", "Ronaldinho", "André Catimba", "Danrlei"],
+      "principais_titulos": [
+        {"titulo": "Libertadores", "quantidade": 3},
+        {"titulo": "Brasileirão", "quantidade": 2},
+        {"titulo": "Copa do Brasil", "quantidade": 5}
+      ]
+    }
+  },
+  {
+    "nome": "Internacional",
+    "detalhes": {
+      "nome_oficial": "Sport Club Internacional",
+      "fundacao": "1909-04-04",
+      "localizacao": {
+        "cidade": "Porto Alegre",
+        "estado": "RS"
+      },
+      "estadio": {
+        "nome": "Beira-Rio",
+        "capacidade": 50100
+      }
+    },
+    "mascote": "Saci",
+    "historico": {
+      "maiores_idolos": ["Falcão", "Fernandão", "D'Alessandro", "Valdomiro", "Taffarel"],
+      "principais_titulos": [
+        {"titulo": "Libertadores", "quantidade": 2},
+        {"titulo": "Brasileirão", "quantidade": 3},
+        {"titulo": "Mundial", "quantidade": 1}
+      ]
+    }
+  },
+  {
+    "nome": "Atlético Mineiro",
+    "detalhes": {
+      "nome_oficial": "Clube Atlético Mineiro",
+      "fundacao": "1908-03-25",
+      "localizacao": {
+        "cidade": "Belo Horizonte",
+        "estado": "MG"
+      },
+      "estadio": {
+        "nome": "Arena MRV",
+        "capacidade": 47178
+      }
+    },
+    "mascote": "Galo",
+    "historico": {
+      "maiores_idolos": ["Reinaldo", "Victor", "Dadá Maravilha", "Ronaldinho", "Éder Aleixo"],
+      "principais_titulos": [
+        {"titulo": "Libertadores", "quantidade": 1},
+        {"titulo": "Brasileirão", "quantidade": 2},
+        {"titulo": "Copa do Brasil", "quantidade": 2}
+      ]
+    }
+  },
+  {
+    "nome": "Cruzeiro",
+    "detalhes": {
+      "nome_oficial": "Cruzeiro Esporte Clube",
+      "fundacao": "1921-01-02",
+      "localizacao": {
+        "cidade": "Belo Horizonte",
+        "estado": "MG"
+      },
+      "estadio": {
+        "nome": "Mineirão",
+        "capacidade": 61000
+      }
+    },
+    "mascote": "Raposa",
+    "historico": {
+      "maiores_idolos": ["Tostão", "Dirceu Lopes", "Sorín", "Alex", "Fábio"],
+      "principais_titulos": [
+        {"titulo": "Libertadores", "quantidade": 2},
+        {"titulo": "Brasileirão", "quantidade": 4},
+        {"titulo": "Copa do Brasil", "quantidade": 6}
+      ]
+    }
+  },
+  {
+    "nome": "Bahia",
+    "detalhes": {
+      "nome_oficial": "Esporte Clube Bahia",
+      "fundacao": "1931-01-01",
+      "localizacao": {
+        "cidade": "Salvador",
+        "estado": "BA"
+      },
+      "estadio": {
+        "nome": "Arena Fonte Nova",
+        "capacidade": 50025
+      }
+    },
+    "mascote": "Super-Homem Tricolor",
+    "historico": {
+      "maiores_idolos": ["Bobô", "Zé Carlos", "Beijoca", "Douglas", "Gilberto"],
+      "principais_titulos": [
+        { "titulo": "Brasileirão", "quantidade": 2 },
+        { "titulo": "Copa do Nordeste", "quantidade": 4 }
+      ]
+    }
+  },
+  {
+    "nome": "Sport Recife",
+    "detalhes": {
+      "nome_oficial": "Sport Club do Recife",
+      "fundacao": "1905-05-13",
+      "localizacao": {
+        "cidade": "Recife",
+        "estado": "PE"
+      },
+      "estadio": {
+        "nome": "Ilha do Retiro",
+        "capacidade": 32000
+      }
+    },
+    "mascote": "Leão",
+    "historico": {
+      "maiores_idolos": ["Leonardo", "Magrão", "Diego Souza", "Vagner Love", "Durval"],
+      "principais_titulos": [
+        { "titulo": "Brasileirão", "quantidade": 1 },
+        { "titulo": "Copa do Brasil", "quantidade": 1 }
+      ]
+    }
+  },
+  {
+    "nome": "Coritiba",
+    "detalhes": {
+      "nome_oficial": "Coritiba Foot Ball Club",
+      "fundacao": "1909-10-12",
+      "localizacao": {
+        "cidade": "Curitiba",
+        "estado": "PR"
+      },
+      "estadio": {
+        "nome": "Couto Pereira",
+        "capacidade": 40502
+      }
+    },
+    "mascote": "Vovô Coxa",
+    "historico": {
+      "maiores_idolos": ["Alex", "Dirceu Krüger", "Rafinha", "Zé Roberto", "Tostão"],
+      "principais_titulos": []
+    }
+  },
+  {
+    "nome": "Goiás",
+    "detalhes": {
+      "nome_oficial": "Goiás Esporte Clube",
+      "fundacao": "1943-04-06",
+      "localizacao": {
+        "cidade": "Goiânia",
+        "estado": "GO"
+      },
+      "estadio": {
+        "nome": "Serrinha",
+        "capacidade": 14000
+      }
+    },
+    "mascote": "Periquito",
+    "historico": {
+      "maiores_idolos": ["Harlei", "Túlio Maravilha", "Fernandão", "Josué", "Iarley"],
+      "principais_titulos": []
+    }
+  },
+  {
+    "nome": "Ceará",
+    "detalhes": {
+      "nome_oficial": "Ceará Sporting Club",
+      "fundacao": "1914-06-02",
+      "localizacao": {
+        "cidade": "Fortaleza",
+        "estado": "CE"
+      },
+      "estadio": {
+        "nome": "Castelão",
+        "capacidade": 63903
+      }
+    },
+    "mascote": "Vovô Alvinegro",
+    "historico": {
+      "maiores_idolos": ["Gildo", "Ricardinho", "Magno Alves", "Serginho Chulapa", "Vavá"],
+      "principais_titulos": [
+        { "titulo": "Copa do Nordeste", "quantidade": 2 },
+        { "titulo": "Campeonato Cearense", "quantidade": 45 }
+      ]
+    }
+  },
+  {
+    "nome": "Fortaleza",
+    "detalhes": {
+      "nome_oficial": "Fortaleza Esporte Clube",
+      "fundacao": "1918-10-18",
+      "localizacao": {
+        "cidade": "Fortaleza",
+        "estado": "CE"
+      },
+      "estadio": {
+        "nome": "Castelão",
+        "capacidade": 63903
+      }
+    },
+    "mascote": "Leão",
+    "historico": {
+      "maiores_idolos": ["Rinaldo", "Berg", "Clodoaldo", "Gustavo", "Marcelo Boeck"],
+      "principais_titulos": [
+        { "titulo": "Copa do Nordeste", "quantidade": 1 },
+        { "titulo": "Campeonato Cearense", "quantidade": 45 }
+      ]
+    }
+  },
+  {
+    "nome": "Avaí",
+    "detalhes": {
+      "nome_oficial": "Avaí Futebol Clube",
+      "fundacao": "1923-09-01",
+      "localizacao": {
+        "cidade": "Florianópolis",
+        "estado": "SC"
+      },
+      "estadio": {
+        "nome": "Ressacada",
+        "capacidade": 17800
+      }
+    },
+    "mascote": "Leão da Ilha",
+    "historico": {
+      "maiores_idolos": ["Marquinhos Santos", "Evando", "Jacozinho", "Hemerson Maria", "Betinho"],
+      "principais_titulos": [
+        { "titulo": "Campeonato Catarinense", "quantidade": 17 }
+      ]
+    }
+  },
+  {
+    "nome": "Chapecoense",
+    "detalhes": {
+      "nome_oficial": "Associação Chapecoense de Futebol",
+      "fundacao": "1973-05-10",
+      "localizacao": {
+        "cidade": "Chapecó",
+        "estado": "SC"
+      },
+      "estadio": {
+        "nome": "Arena Condá",
+        "capacidade": 22000
+      }
+    },
+    "mascote": "Índio Condá",
+    "historico": {
+      "maiores_idolos": ["Cláudio Winck", "Danilo", "Bruno Rangel", "Cleber Santana", "Kempes"],
+      "principais_titulos": [
+        { "titulo": "Copa Sul-Americana", "quantidade": 1 },
+        { "titulo": "Campeonato Catarinense", "quantidade": 7 }
+      ]
+    }
+  },
+  {
+    "nome": "Juventude",
+    "detalhes": {
+      "nome_oficial": "Esporte Clube Juventude",
+      "fundacao": "1913-06-29",
+      "localizacao": {
+        "cidade": "Caxias do Sul",
+        "estado": "RS"
+      },
+      "estadio": {
+        "nome": "Alfredo Jaconi",
+        "capacidade": 23000
+      }
+    },
+    "mascote": "Periquito",
+    "historico": {
+      "maiores_idolos": ["Thiago Silva", "Lauro", "Jardel", "Ivo Wortmann", "Rogério Zimmermann"],
+      "principais_titulos": [
+        { "titulo": "Copa do Brasil", "quantidade": 1 },
+        { "titulo": "Campeonato Gaúcho", "quantidade": 1 }
+      ]
+    }
+  }
+]
