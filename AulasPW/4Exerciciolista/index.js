@@ -61,4 +61,20 @@ async function organizall(){
     })
     console.log(info);
 }
-organizall()
+//organizall()
+
+//6_: 
+
+async function organizaRS(){
+    const dados =  await pegaDados()
+    
+    const info = dados.filter(infos =>{
+        if(infos.detalhes.localizacao.estado == "RS" && ){
+            return infp
+        }
+    })
+
+    console.log(info)
+}
+
+organizaRS()
