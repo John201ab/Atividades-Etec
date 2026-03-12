@@ -59,7 +59,7 @@ async function organizall(){
 "=-=-=-=-=-=-=-=-=-"`)
         
     })
-    console.log(info);
+
 }
 //organizall()
 
@@ -69,12 +69,25 @@ async function organizaRS(){
     const dados =  await pegaDados()
     
     const info = dados.filter(infos =>{
-        if(infos.detalhes.localizacao.estado == "RS" && ){
-            return infp
-        }
-    })
 
-    console.log(info)
+        if(infos.detalhes.localizacao.estado == "RS" && infos.nome.length > 7){
+        console.log(`Nome do time:  ${infos.nome}`)
+      }
+    })
+  
 }
 
-organizaRS()
+// organizaRS()
+
+// 7_:
+
+async function titulos(){
+    const dados = await pegaDados()
+
+    const info = dados.filter(infos => {
+       console.log(`Time: ${infos.nome}  Titulos: ${infos.historico.principais_titulos}`)
+    })
+
+}
+
+titulos()
