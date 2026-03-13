@@ -84,10 +84,50 @@ async function organizaRS(){
 async function titulos(){
     const dados = await pegaDados()
 
-    const info = dados.filter(infos => {
-       console.log(`Time: ${infos.nome}  Titulos: ${infos.historico.principais_titulos}`)
-    })
+ 
+    dados.forEach(infos => {
+
+        console.log(`Time: ${infos.nome}`)
+
+        infos.historico.principais_titulos.forEach(titulos => {
+            console.log(`Titulos: ${titulos.titulo} ${titulos.quantidade}`)
+        })
+         console.log("=-=-=-=-=-=-=-=-=-=-=-=-=")
+    });
 
 }
 
-titulos()
+// titulos()
+
+// 8_:
+
+async function informa(){
+    const dados = await pegaDados()
+
+    dados.forEach(informacoes =>{
+        if(informacoes.detalhes.estadio.capacidade > 50000){
+            console.log(`nome do time: ${informacoes.nome}`)
+            console.log(`nome do estádio: ${informacoes.detalhes.estadio.nome}`)
+            console.log(`macote: ${informacoes.mascote}`)
+            console.log(`capacidade: ${informacoes.detalhes.estadio.capacidade}`)
+            console.log("=-=-=-=-=-=-=-=-=-")
+        }
+    })
+}
+//informa()
+
+// 9_:
+
+async function idolos() {
+    const dados = await pegaDados()
+
+    dados.forEach(sobre =>{
+        console.log(`times: ${sobre.nome}`)
+        console.log(`idolos: ${sobre.historico.maiores_idolos.sort().join(", ")}`)
+        console.log("=-=-=-=-=-=-=-=-=-=-=")
+})
+}
+
+//idolos()
+
+// 10_:
