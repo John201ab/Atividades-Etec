@@ -1,0 +1,8 @@
+C:\Users\Administrator\Documents\SharpDevelop Projects\naveTeste\naveTeste\bin\Debug\naveTeste.exe.config
+C:\Users\Administrator\Documents\SharpDevelop Projects\naveTeste\naveTeste\bin\Debug\naveTeste.exe
+C:\Users\Administrator\Documents\SharpDevelop Projects\naveTeste\naveTeste\bin\Debug\naveTeste.pdb
+C:\Users\Administrator\Documents\SharpDevelop Projects\naveTeste\naveTeste\obj\Debug\naveTeste.csprojResolveAssemblyReference.cache
+C:\Users\Administrator\Documents\SharpDevelop Projects\naveTeste\naveTeste\obj\Debug\naveTeste.exe
+C:\Users\Administrator\Documents\SharpDevelop Projects\naveTeste\naveTeste\obj\Debug\naveTeste.pdb
+C:\Users\Administrator\Documents\SharpDevelop Projects\naveTeste\naveTeste\obj\Debug\naveTeste.MainForm.resources
+C:\Users\Administrator\Documents\SharpDevelop Projects\naveTeste\naveTeste\obj\Debug\naveTeste.csproj.GenerateResource.Cache
