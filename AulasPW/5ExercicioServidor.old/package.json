@@ -1,0 +1,20 @@
+{
+  "name": "aulanode2",
+  "version": "1.0.0",
+  "description": "",
+  "license": "ISC",
+  "author": "",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon src/index.js",
+    "create_migration": "npx typeorm -d ./src/database/config.js migration:generate ./src/database/migrations/db --outputJs",
+    "execute_migration": "npx typeorm -d ./src/database/config.js migration:run"
+  },
+  "dependencies": {
+    "express": "^5.2.1",
+    "mysql2": "^3.20.0",
+    "reflect-metadata": "^0.2.2",
+    "typeorm": "^0.3.28"
+  }
+}
