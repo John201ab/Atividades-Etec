@@ -9,4 +9,4 @@ function generateNewPassword(){
     return newPassword;
 }
 
-export {generatePassword};
+export {generateNewPassword};

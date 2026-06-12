@@ -100,7 +100,7 @@ route.delete("/:id", async (request, response) => {
     return response.status(200).send({message: "Usuário excluido com sucesso"});
 });
 
-//soft delete
+// softdelete
 // route.delete("/:id", async (request, response) => {
 //     const {id} = request.params;
 
